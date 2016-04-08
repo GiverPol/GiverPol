@@ -263,7 +263,7 @@ width: 200px;
 	border-color: #bdb2ad #958E95 #958E95 #bdb2ad;
 	/* First is top,second is right,third is bottom,four is left,*/
 	border-style: outset;
-  	
+  	border-radius:30px;
 		}  
 		input:hover{
 		color: yellow;
@@ -555,8 +555,20 @@ div.title {
 	    color: #cec642
 }
 /*unSelectable text */
-
-
+#img
+{
+border-style: outset;
+border-radius: 50px;
+border-color: #B6AEB8 #B6AEB8 #B6AEB8 #B6AEB8;
+height: 50px;
+width: 50px;
+}
+#img:hover
+{
+border-style: inset;
+border-radius: 50px;
+border-color: #B6AEB8 #B6AEB8 #B6AEB8 #B6AEB8;
+}
 
 -webkit-user-select: none; /* Chrome/Safari */ -moz-user-select: none; /* Firefox */ -ms-user-select: none; /* IE10+ */ /* Rules below not implemented in browsers yet */ -o-user-select: none; user-select: none;
 
@@ -576,7 +588,7 @@ div.title {
 	<tr>
 	 <div class="title">
 	   <input  type="submit" onclick="location.href='main.html';" value="Inicio"/>
-	   <!--  <input id=boton type="submit" onclick="location.href='descargasmob.html';" value="Descargas"/> -->
+	   <input id=boton type="submit" onclick="location.href='Descargas.html';" value="Descargas"/> 
 	     <input  type="submit" onclick="location.href='index.html';" value="Versión PC"/> 
 	  <input id=boton type="submit" onclick="location.href='registro.html';" value="Registrarse"/> 
 	   <!--  <input id=boton type="submit" onclick="location.href='sesionmob.html';" value="Iniciar Sesión"/> -->
@@ -653,7 +665,7 @@ div.title {
   
   
   <center style="font-size:63%" >
-	<h3 id="NewTextLayout" class="outset" style="color:white">SmartPE esta conformado por<br><br><font color="lime" style="font-size:160%">Desarrolladores</font> <br> <br> <br> <center> <input type="submit" style="color:#00B6FF;" onclick="location.href='https://twitter.com/CrazzyMCPE';" value="CrazzyMCPE"/><img class="outset" src="img/pic/Crazzy.png" align="left" height=40px width=40px><br><br><br><center>  <input type="submit" style="color:#00FFC2;" onclick="location.href='#https://twitter.com/';" value="Huesos" /><img class="outset" src="img/pic/Huesos.png" align="left" height=40px width=40px></center></h3>  <h3 id="NewTextLayout1" class="outset" style="color:white"> <font color="FFD400" style="font-size:160%">Lista de cambios</font> <br> <br>
+	<h3 id="NewTextLayout" class="outset" style="color:white">SmartPE esta conformado por<br><br><font color="lime" style="font-size:160%">Desarrolladores</font> <br> <br> <br> <center> <input type="submit" style="color:#00B6FF;" onclick="location.href='https://twitter.com/CrazzyMCPE';" value="CrazzyMCPE"/><img id="img" src="img/pic/Crazzy.png" align="left" height=10px width=10px><br><br><br><center>  <input type="submit" style="color:#00FFC2;" onclick="location.href='#https://twitter.com/';" value="Huesos" /><img id="img" src="img/pic/Huesos.png" align="left" height=40px width=40px></center></h3>  <h3 id="NewTextLayout1" class="outset" style="color:white"> <font color="FFD400" style="font-size:160%">Lista de cambios</font> <br> <br>
 	  cambiado el orden de los botones<br> <br>Nuevo espacio de texto info( Reemplazada la tabla)<br> <br>Nuevo Menú Acerca de<br> <br>Arreglado el tamaño de la interfáz<br> <br>Mejorado el titulo<br> <br>Arregladas las fuentes en algunos menús<br>  <br>Nuevas sombras en los botones y menús<br> <br>centrados todos los menús<br> <br>Soporte de rotación de pantalla(Ahora puedes girar el teléfono y obtener el modo horizontal)<br> <br>Añadido el soporte del idioma ingles<br> <br>Añadido el botón PC(Ya está con su función)<br><br>Actualizado el splashscreen</h3> </center> 
 	</h3>  </center>
   <div> 
