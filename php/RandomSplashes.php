@@ -1,1 +1,0 @@
-<?php $str = file_get_contents('splashes.txt'); $result = explode('\n',$var); echo $result[array_rand($result)]; ?>

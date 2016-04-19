@@ -1,10 +1,8 @@
-<script language="JavaScript">
-
-	var select=parseInt(Math.random()*5)+1;
+var select=parseInt(Math.random()*5)+1;
 
 		if(select==1){
 						document.write('<div class="tilt">');
-			document.write('<div id="splash1" class="pop">SmartPE WebSite!</div>');
+			document.write('<br> <br> <div id="splash1" class="pop">SmartPE WebSite!</div>');
     document.write('</div>');
 }
 
@@ -34,4 +32,3 @@
 			document.write('<div id="splash1" class="pop">Meh...</div>');
     document.write('</div>');
 }
-</script>
