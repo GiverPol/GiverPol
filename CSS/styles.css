@@ -281,11 +281,11 @@ div.title {
         padding: 1.8%;
 		background-color: #958681;
 		color:#FFFFFF;
-		width: 20%;
+		width: 23%;
 		height: 8%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-		font-size: 50%;
+		font-size: 74%;
 		border-style: outset;
 		border-color:  #bdb2ad #292829 #292829 #bdb2ad;
 }
@@ -293,14 +293,14 @@ div.title {
         font-size: 50%;
 		background-color: #73656b;
 	    color: #cec642;
-		text-shadow:3.3px 3.3px #3F3F33;
+		text-shadow:1.4px 1.4px #3F3F33;
 		border-style: inset;
 		border-color: #292829 #bdb2ad #bdb2ad #292829;
 }
 #boton:active {
 		background-color: #73656b;
 	    color: #cec642;
-		text-shadow:3.3px 3.3px #3F3F33;
+		text-shadow:1.8px 1.8px #3F3F33;
 		border-style: inset;
 		#292829 #bdb2ad #bdb2ad #292829;
 }
@@ -313,6 +313,7 @@ div.title {
 		border-style: outset;
 		text-shadow:1.3px 1.3px #3F3F33;
 		text-align: center;
+     font-size: 80%;
 }
 #SmallButton {
         padding: 2%;
@@ -322,12 +323,12 @@ div.title {
 		height: 15%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-		font-size: 50%;
+		font-size: 80%;
 		border-style: outset;
 		border-color:  #bdb2ad #292829 #292829 #bdb2ad;
 }
 #SmallButton:hover{
-        font-size: 50%;
+        font-size: 80%;
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:3.3px 3.3px #3F3F33;
