@@ -14,7 +14,16 @@
 	 <div class="title">
       <img src="img/title.png" alt="title" id="title">
 	 </div></center>
- 
+ <script>
+$(document).ready(function(){
+    $("input").focus(function(){
+        $(this).css("background-color", "#cccccc");
+    });
+    $("input").blur(function(){
+        $(this).css("background-color", "#ffffff");
+    });
+});
+</script>
   
   <tr>
 	<div class="title">

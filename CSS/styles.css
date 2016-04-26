@@ -1,3 +1,33 @@
+
+.NewDemo
+
+	{ 
+	padding: 4%;
+		background-color: #958681;
+		color:#FFFFFF;
+		width: 23%;
+		height: 23%;
+		font-family:'volter';
+		text-shadow: 1.3px 1.3px #3F3F33;
+		font-size: 74%;
+		border-style: outset;
+		border-color:  #bdb2ad #292829 #292829 #bdb2ad;
+        alignment-adjust: center;
+		}
+
+
+/*.NewDemo:hover
+
+	{ 
+	font-size: 74%;
+		background-color: #73656b;
+	    color: #cec642;
+		text-shadow:1.4px 1.4px #3F3F33;
+		border-style: inset;
+		border-color: #292829 #bdb2ad #bdb2ad #292829;
+}
+
+*/
 .c
 {
   float: middle;
@@ -96,17 +126,24 @@ form
     border-style: inset;
 	 
   	}
-
+.img
+{
+ border-width: 10%
+ border-height: 10%
+border-radius: 160px;
+border-style: inset;
+ 
+}
 /*New About layoutImg*/
 #img
+
 {
-border-style: outset;
+
 border-color: #B6AEB8 #B6AEB8 #B6AEB8 #B6AEB8;
-height: 15%;
-width:  15%;
-box-sizing: border-box;
-border-radius: 160px;
-padding: 0%;
+height: 10%;
+width:  10%;
+padding: 1%
+animation-delay: 20%;
 }
 
 #img:hover
@@ -278,19 +315,20 @@ div.title {
 }
 /* De registro unicamente */
 #boton {
-        padding: 1.8%;
+        padding: 1.0%;
 		background-color: #958681;
 		color:#FFFFFF;
 		width: 23%;
-		height: 8%;
+		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-		font-size: 74%;
+		font-size: 90%;
 		border-style: outset;
 		border-color:  #bdb2ad #292829 #292829 #bdb2ad;
 }
 #boton:hover{
-        font-size: 50%;
+        padding: 1.8%;
+        font-size: 100%;
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:1.4px 1.4px #3F3F33;
@@ -298,9 +336,10 @@ div.title {
 		border-color: #292829 #bdb2ad #bdb2ad #292829;
 }
 #boton:active {
+        padding: 1.8%;
 		background-color: #73656b;
 	    color: #cec642;
-		text-shadow:1.8px 1.8px #3F3F33;
+		text-shadow:1.4px 1.4px #3F3F33;
 		border-style: inset;
 		#292829 #bdb2ad #bdb2ad #292829;
 }
