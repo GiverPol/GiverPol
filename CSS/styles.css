@@ -1,3 +1,18 @@
+.cube { position: relative; top: 200px; } .rightFace,
+.leftFace,
+.topFace div {
+    padding: 10px; width: 180px; height: 180px; } .rightFace,
+.leftFace,
+.topFace {
+    position: absolute; } .leftFace {
+    -webkit-transform: skewY(30deg); -moz-transform: skewY(30deg); background-image: url(../img/block.png); }
+ .rightFace {
+    -webkit-transform: skewY(-30deg); -moz-transform: skewY(-30deg); background-image: url(../img/block.png); left: 200px; } .topFace div {
+    -webkit-transform: skewY(-30deg) scaleY(1.16); -moz-transform: skewY(-30deg) scaleY(1.16); background-image: url(../img/block1.png); font-size: 0.862em; } .topFace {
+    -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); top: -157px; left: 100px; }
+
+
+
 
 .NewDemo
 
@@ -168,6 +183,7 @@ border-color: #B6AEB8 #B6AEB8 #B6AEB8 #B6AEB8;
 	border-color: #bdb2ad #958E95 #958E95 #bdb2ad;
     box-sizing: border-box;
 	font-size: 100%;
+border-radius: 2%;
  	}
 
 #ts
@@ -231,6 +247,7 @@ font-size: 16px;
 	display:block;  
 border-width: 3 3%; 
 font-size: 80%;
+border-radius: 2%;
 left: 0;   /* top border only */ font-weight:normal
   	}
 	
@@ -277,11 +294,12 @@ left: 0;   /* top border only */ font-weight:normal
 }
 body {
         font-size: 80%;
-		background-image: url(../img/bg.png);
+		background-image: url(../img/mbg.png);
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
 		color: white;
 		word-spacing: 1px;
+    
 /*Anti-aliasing*/
 width: auto;
 height: auto;
@@ -315,33 +333,37 @@ div.title {
 }
 /* De registro unicamente */
 #boton {
-        padding: 1.0%;
+      padding: 2.0%;
 		background-color: #958681;
 		color:#FFFFFF;
-		width: 23%;
+		width: 24%;
 		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-		font-size: 90%;
+	font-size: 84%;
 		border-style: outset;
-		border-color:  #bdb2ad #292829 #292829 #bdb2ad;
+      border-radius: 2%;
+      word-spacing: -3px;
+      border-width:  1px;
+  border-color:  #bdb2ad #292829  #292829 #bdb2ad;
+/*	 letter-spacing: 1px; */
 }
 #boton:hover{
-        padding: 1.8%;
-        font-size: 100%;
+       
+        font-size: 90%;
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:1.4px 1.4px #3F3F33;
 		border-style: inset;
-		border-color: #292829 #bdb2ad #bdb2ad #292829;
+	border-color:  #292829 #bdb2ad #bdb2ad #292829;
 }
 #boton:active {
-        padding: 1.8%;
+       
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:1.4px 1.4px #3F3F33;
 		border-style: inset;
-		#292829 #bdb2ad #bdb2ad #292829;
+	border-color:	#292829 #bdb2ad #bdb2ad #292829;
 }
 #entrada {
 		border-color: #cdc4cc #cdc4cc #cdc4cc #cdc4cc;
@@ -364,7 +386,8 @@ div.title {
 		text-shadow: 1.3px 1.3px #3F3F33;
 		font-size: 80%;
 		border-style: outset;
-		border-color:  #bdb2ad #292829 #292829 #bdb2ad;
+		 border-color:  #bdb2ad #292829  #292829 #bdb2ad;
+/*	 letter-spacing: 1px; */
 }
 #SmallButton:hover{
         font-size: 80%;
@@ -381,6 +404,11 @@ div.title {
 		border-style: inset;
 		#292829 #bdb2ad #bdb2ad #292829;
 }
+
+
+
+
+
 /*
 #chb {
 		font-size:20px;
