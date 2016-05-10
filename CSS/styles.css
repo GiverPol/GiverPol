@@ -1,3 +1,21 @@
+.entrada1 {
+        padding: 2.0%;
+		border-color: #cdc4cc #cdc4cc #cdc4cc #cdc4cc;
+		background-color: #474647;
+		font-family:'volter';
+		color: yellow;
+		height:10%;
+		width: 57%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+		text-align: center;
+     font-size: 80%;
+}
+#buttonalign
+{
+  align: left
+  }
+}
 .cube { position: relative; top: 200px; } .rightFace,
 .leftFace,
 .topFace div {
@@ -50,7 +68,8 @@
 .textStyle
 {
   
-color:  #FFEA66;
+color:#FFEA66;
+font-size: 82%;
 }
 #title
 {
@@ -117,7 +136,7 @@ form
 #DownloadsLayout
 
 	{ 
-	
+	padding: 1.5%;
 	width: 80%;
 	background-color: #8d7e79;
     height: 100%;
@@ -132,12 +151,14 @@ form
 	#DownloadSubMenu
 
 	{ 
+	padding: 1.7%;
 	width: 60%;
-	background-color: #897671;
+	background-color: #73656b;
     height: 100%;
 	align: center;
 	text-shadow: 1.3px 1.3px #44423e;
-	border-color: #474748 #bdb2ad #bdb2ad #474748;
+	border-color: #bdb2ad #cdc4cc #958E95 #bdb2ad;
+
     border-style: inset;
 	 
   	}
@@ -237,7 +258,7 @@ font-size: 16px;
 	{ 
 	width: 80%;
 	background-color: #8d7e79;
-    height:80%;
+    height:100%;
 	text-shadow: 1.3px 1.3px #44423e;
     border-style: outset;
 	color: #fff;
@@ -246,7 +267,7 @@ font-size: 16px;
     outline:none; 
 	display:block;  
 border-width: 3 3%; 
-font-size: 80%;
+font-size: 90%;
 border-radius: 2%;
 left: 0;   /* top border only */ font-weight:normal
   	}
@@ -332,98 +353,73 @@ div.title {
   font-family:mcpe;
 }
 /* De registro unicamente */
-#boton {
+.boton {
       padding: 2.0%;
 		background-color: #958681;
 		color:#FFFFFF;
-		width: 24%;
+		width: 23%;
 		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-	font-size: 84%;
+	font-size: 82%;
 		border-style: outset;
       border-radius: 2%;
-      word-spacing: -3px;
       border-width:  1px;
   border-color:  #bdb2ad #292829  #292829 #bdb2ad;
 /*	 letter-spacing: 1px; */
 }
-#boton:hover{
+.boton:hover{
        
-        font-size: 90%;
+        font-size: 82%;
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:1.4px 1.4px #3F3F33;
 		border-style: inset;
 	border-color:  #292829 #bdb2ad #bdb2ad #292829;
 }
-#boton:active {
+/*.boton:active {
        
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:1.4px 1.4px #3F3F33;
 		border-style: inset;
 	border-color:	#292829 #bdb2ad #bdb2ad #292829;
-}
-#entrada {
+} */
+.entrada {
+        padding: 1.9%;
 		border-color: #cdc4cc #cdc4cc #cdc4cc #cdc4cc;
 		background-color: #474647;
 		font-family:'volter';
 		color: yellow;
-		height:30px;
+		height:10%;
+		width: 17%;
 		border-style: outset;
 		text-shadow:1.3px 1.3px #3F3F33;
 		text-align: center;
      font-size: 80%;
 }
-#SmallButton {
-        padding: 2%;
+#Button {
+        padding: 2.0%;
 		background-color: #958681;
 		color:#FFFFFF;
-		width: 35%;
+		width: 40%;
 		height: 15%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
 		font-size: 80%;
 		border-style: outset;
-		 border-color:  #bdb2ad #292829  #292829 #bdb2ad;
-/*	 letter-spacing: 1px; */
-}
-#SmallButton:hover{
-        font-size: 80%;
+		border-width: 1px;
+		border-color:  #bdb2ad #292829  #292829 #bdb2ad;
+		}
+#Button:hover{
 		background-color: #73656b;
 	    color: #cec642;
-		text-shadow:3.3px 3.3px #3F3F33;
 		border-style: inset;
 		border-color: #292829 #bdb2ad #bdb2ad #292829;
 }
-#SmallButton:active {
+#Button:active {
 		background-color: #73656b;
 	    color: #cec642;
-		text-shadow:3.3px 3.3px #3F3F33;
 		border-style: inset;
 		#292829 #bdb2ad #bdb2ad #292829;
 }
-
-
-
-
-
-/*
-#chb {
-		font-size:20px;
-		text-shadow:2.7px 2.7px #3F3F33; 
-		
-}
-#lel {
- 		font-size:20px;
-		text-shadow:2.7px 2.7px #3F3F33;
-	    color: #cec642
-}
-/*unSelectable text */
-
-
-
--webkit-user-select: none; /* Chrome/Safari */ -moz-user-select: none; /* Firefox */ -ms-user-select: none; /* IE10+ */ /* Rules below not implemented in browsers yet */ -o-user-select: none; user-select: none;
-
-

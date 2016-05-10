@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><meta name="theme-color" content="#958681">
+	  <title>SmartPE</title>  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  <link rel="ICON" href="img/icon.ico" type="image/ico" />
+	  <link rel="StyleSheet" href="CSS/styles.css" type="text/css">
+	
+
+	<div class="title">
+	  <center> <img id="title" src="img/title.png"alt="title" id="title"> </center>
+	</div>
 <title>Addon Gen</title>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js"></script>
 <script src="js/template.zip.js"></script>
 <script src="js/main.js"></script>
 </head>
 <body>
-<div>
-Name: <input id="name"><br>
-<div class="desc">this is the name that shows up in BlockLauncher's manage addons page</div>
-Package: <input id="package"><br>
-<div class="desc">this is a name that must be unique to your package. should be in all lowercase.<br> No other package can have this name. Usually contains your domain name in reverse DNS form: for example, if your website is zhuoweizhang.net, your package can be net.zhuoweizhang.potatosmasher. <br>If you don't own a domain, you can use your e-mail in reverse (com.gmail.swagyolomastertwothousand.potatosmasher) or a Weebly/Wix/Google Sites account in reverse (com.weebly.swagyolomastertwothousand.potatosmasher)</div>
-MCPE version: <input id="mcpeversion"><br>
-<div class="desc">this is the Minecraft PE version that your mod will be compatible with(Example: 0.11.0)</div>
-<input id="generatebutton" type="Submit" value="Generate!">
-</div>
+ <center>  <div align=center id=NewTextLayout><br>
+	  <a style="color:yellow">Nombre:      </a><input class=entrada id="name">
+	 <a id=DownloadSubMenu class="textStyle">Nombre del Mod(Addon) </a><br> <br>
+  <a style="color:yellow">Paquete:</a> <input class=entrada id="package">
+	 <a id=DownloadSubMenu class="textStyle">Paquete del Mod(Addon)</a><br><br>
+	 <a style="color:yellow">Versión: </a> <input class=entrada id="mcpeversion">
+  <a id=DownloadSubMenu class="textStyle">Versión de Minecraft PE </a>
+  <center><br><input  class=boton  id="generatebutton" type="Submit" value="Generate!"></center>
+	 <br></div></center>
 </body>
 </html>
