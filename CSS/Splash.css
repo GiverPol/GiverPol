@@ -1,10 +1,15 @@
-#splash1 {
+#splash {
      color: #FFFF00;
-     font-size: 1.5em;
+     font-size: 75%;
      font-family:'volter';
-     text-shadow:3px 3px #3F3F33;
-     padding: 40px;
+     text-shadow:1.3px 1.3px #3F3F33;
+     padding: 67px;
+	 font-size-adjust: 10px 10px;
      position: absolute;
+	 right: 6%;
+	/* left: -10%;*/
+	 top: -30%;
+	
 }
 .pop {
    animation: pop 0.58s infinite;

@@ -1,228 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
   <head><meta name="theme-color" content="#958681"> <body>
+	  <script src="js/splash.js"></script>
 	  <script src="js/jQuery.js"></script>
-  <title>SmartPE</title>  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	  <script src="js/UI-Size.js"></script>
+	  <script src="js/SlideToggle.js"></script>
+  <title>SmartPE</title>  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<link rel="ICON" href="img/icon.ico" type="image/ico" />
 <link rel="StyleSheet" href="CSS/styles.css" type="text/css">
-<link rel="StyleSheet" href="CSS/AlignLayout.css" type="text/css">
-	</body>  </head>
+<link rel="StyleSheet" href="CSS/splash.css" type="text/css">
+<link rel="StyleSheet" href="CSS/SlideToggle.css" type="text/css">
+	  
+  </body>  </head>
 	
-	
-	
-	
-		 <div class="title">
-		   <center> <img id="title" src="img/title.png" alt="title"> </center>
+  <div class="title"></div>
+		   <center> <img onClick="location.href='index.html';" id="title" src="img/title.png" alt="title"> </center>
 		   <tr>
 		   <div class="title">
-			 
-				 <input class=boton type="submit" onclick="location.href='Descargas.html';" value="Descargas"/>
-			 <input class=boton type="submit" onclick="location.href='registro.html';" value="Registrarse"/> 
-			  <input class=boton type="submit" onclick="location.href='sesion.html';" value="Iniciar Sesión"/>
-				<input class=boton type="submit" onclick="location.href='about.html';" value="Acerca de"/> 
-		<br><br>	 <input id=buttonalign class=boton type="submit" onclick="location.href='addongen.html';" value="AddonGen"/> 
-			 
+			<br><br>
+			 <input class=boton type="submit" onclick="location.href='index.html';" value="Inicio"/>
+			 <input class=boton type="submit" onclick="location.href='Descargas.html';" value="Descargas"/>
+			 <input class=boton type="submit" onclick="location.href='registro.html';" value="Registrarse"/>
+			<input class=boton type="submit" onclick="location.href='sesion.html';" value="Iniciar Sesión"/>
+        <div>  <br> <input class=boton type="submit" onclick="location.href='about.html';" value="Acerca de"/> 
+		 <input id=buttonalign class=boton type="submit" onclick="location.href='addongen.html';" value="AddonGen"/> 
+			</div> 
 		   </div></tr>
 		<center> <tr> <div class="title">  
 		    
-			</div></tr></center>
-	<center style="font-size:130%">
-	  <h3  id="NewTextLayout" class="container" style="color:white"><a id="ts" style="color:#FFEA66">Proximamente<br><br><a style="color:white">Esta será la comunidad oficial de SmartPE,esta es una versión beta de SmartPE web</a></a></h3></center>
-	  <center style="font-size:130%">
-		<h5 id="NewAboutLayout" class="container">
-		  <br><font id="ts" color="lime">Desarrolladores</font>
-		  <br><br> 
-		  <center> <img class=img onClick="location.href='https://www.twitter.com/CrazzyMCPE'" id="img" src="img/pic/Crazzy.png">
-		  </center>
-		<center> <img class=img id="img" src="img/pic/Huesos.png">
-		</center></h5>
- <script>
-	/* Small UI panels*/
-$(document).ready(function(){
-    $("h6").click(function(){
-        var div = $("h3");
+			</div></tr></center><br>
+	<center style="font-size:63%">
+	  
+	  <h3  id="NewTextLayout" class="container" style="color:white"><br><a id="ts" style="color:#FFEA66">Bienvenido!!!<br><br><a style="color:white">Esta es la comunidad oficial de SmartPE,esta es una versión beta de SmartPE web asi que hay cosas que no estan del todo bien hechas.</a></a>
+		<br><br><br><br><br>
+		<font class=textStyle>Caracteristicas futuras</font>
+	  <br>
+	  
+		<br><br><br><br>
+	    
+		<font color="lime" style="font-size:170%">Desarrolladores</font>
+		<center> <h4 style="align=right" class=pop id=Button>Crazzy°s<img class=imgbutton src="img/pic/Crazzy.png"></h4></center>
+		<center> <h4 style="align=right" class=pop id=Button>Huesos<img class=imgbutton src="img/pic/Huesos.png"></h4></center>
+	<br>
+		<font class=textStyle>Cambiar Interfáz</font>
+		<br>
+	<h6 class=pop id=Button><img class=imgbutton src="img/bin.png"></h6>
+	<h4 class=pop id=Button><img class=imgbutton src="img/bin.png"></h4> 
 	
-        div.animate({height: '30%', opacity: '1.0', }, "slow");
-        div.animate({width: '60%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */
-   
-    });
-	});
-	 $(document).ready(function(){
-    $("h6").click(function(){
-        var div = $("h5");
-	
-        div.animate({height: '30%', opacity: '1.0', }, "slow");
-        div.animate({width: '60%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */ 
+	  </h3></center>
 
-});
-});
-   $(document).ready(function(){
-    $("h6").click(function(){
-        var div = $("input");
-	
-        div.animate({height: '9%', opacity: '1.0', }, "slow");
-        div.animate({width: '20%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */
-    });
-	})
-$(document).ready(function(){
-    $("h6").click(function(){
-        var div = $("h6");
-	
-        div.animate({height: '10%', opacity: '1.0', }, "slow");
-        div.animate({width: '20%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */
-   
-    });
-	});
-; /* Normal UI panels*/
-$(document).ready(function(){
-    $("h4").click(function(){
-        var div = $("h3");
-	
-        div.animate({height: '50%', opacity: '1.0'}, "slow");
-        div.animate({width: '80%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */
-    });
-});
-$(document).ready(function(){
-    $("h4").click(function(){
-        var div = $("h5");
-	
-        div.animate({height: '50%', opacity: '1.0', }, "slow");
-        div.animate({width: '80%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */
-});
-});
-$(document).ready(function(){
-    $("h4").click(function(){
-        var div = $("input");
-	
-        div.animate({height: '15%', opacity: '1.0', }, "slow");
-        div.animate({width: '22%', opacity: '1.0'}, "slow");
-    /*    div.animate({height: '300px', opacity: '1.0'}, "slow");
-   div.animate({width: '300px', opacity: '1.0'}, "slow"); */
-   
-    });
-	});  </script>
-
-<!-- <script>
-
-$(document).ready(function(){
-
-    $("#flip").click(function(){
-
-        $("#panel").slideToggle("slow");
-
-    });
-
-});
-
-</script>
-
-		
-  <style>
-<style> 
-
-#panel, #flip {
-
-    padding: 5px;
-
-    text-align: center;
-
-    background-color: #e5eecc;
-
-    border: solid 1px #c3c3c3;
-
-}
-
- 
-
-#panel {
-
-    padding: 50px;
-
-    display: none;
-
-}
-
-
-		</style>
-		-->
-<!--		
-		<center>	<div id="flip">Show and hide</div> </center>
-			<div id="panel">Hello world!</div>
-
---> <center>		
-<h3>Cambiar Interfáz</h3></center>
-		<h6 class=boton>1</h6>
-	    <h4 class=boton>2</h4> 
-	
-	</center></div>
-
-	
-	
-<style>
-        /* The animation code */
- 
-        @keyframes example
-        {
- 
-            100%
-            {
-                background-image: url(img/background/panorama_0.png);
-                left:0px;
-                top:0px;
-            }
-            100%
-            {
-                background-image: url(img/background/panorama_1.png);
-                left:200px;
-                top:0px;
-            }
-            50%
-            {
-                background-image: url(img/background/panorama_3.png);
-                left:200px;
-                top:200px;
-            }
-            75%
-            {
-                background-color: green;
-                left:0px;
-                top:200px;
-            }
-            100%
-            {
-                background-color: gray;
-                left:0px;
-                top:0px;
-            }
-        }
- 
-        /* The element to apply the animation to */
- 
-        div
-        {
-            width: 100%;
-            height: 100%;
-            position: center;
-            text-align:center;
-            animation-name: example;
-            animation-duration: 3s;
-            animation-iteration-count:infinite;
-        }
-</style>
-	
-	
-	
 </html>

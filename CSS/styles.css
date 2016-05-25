@@ -1,3 +1,52 @@
+h8
+{
+align=center;
+text-align:center;
+}
+h3
+{
+align=center;
+text-align:center;
+}
+
+.imgbutton
+{
+  width: 50%;
+  height: auto;
+  text-align: left;
+  border-radius: 100px;
+  color: lime;
+}
+.SubPressMini
+{
+  border-color: #cdc4cc #cdc4cc #cdc4cc #cdc4cc;
+		background-color: #474647;
+		font-family:'volter';
+		color: yellow;
+		height:40%;
+		wddth: 107%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+		text-align: left;
+		align: left
+     font-size: 80%;
+}
+
+.SubdownloadLayout
+{
+/*padding: 2.0%;*/
+		border-color: #cdc4cc #cdc4cc #cdc4cc #cdc4cc;
+		background-color: #474647;
+		font-family:'volter';
+		color: yellow;
+		height:40%;
+		wddth: 107%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+		text-align: left;
+		align: left
+     font-size: 80%;
+	 }
 .entrada1 {
         padding: 2.0%;
 		border-color: #cdc4cc #cdc4cc #cdc4cc #cdc4cc;
@@ -8,7 +57,7 @@
 		width: 57%;
 		border-style: outset;
 		text-shadow:1.3px 1.3px #3F3F33;
-		text-align: center;
+		text-align: ce4nter;
      font-size: 80%;
 }
 #buttonalign
@@ -67,9 +116,43 @@
 }
 .textStyle
 {
-  
+ padding: 2.0%; 
+color:#FFEA66;
+font-size: 70%;
+border-color: #9FA4B3; #cdc4cc #757883; #757883;
+		background-color: #474647;
+		font-family:'volter';
+		height:30%;
+		width: 50%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+}
+.textStyle
+{
+ padding: 2.0%; 
+color:#FFEA66;
+font-size: 70%;
+border-color: #9FA4B3; #cdc4cc #757883; #757883;
+		background-color: #474647;
+		font-family:'volter';
+		height:30%;
+		width: 50%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+}
+
+.textStyle:hover
+{
+ padding: 2.0%; 
 color:#FFEA66;
 font-size: 82%;
+border-color: #9FA4B3; #cdc4cc #757883; #757883;
+		background-color: #474647;
+		font-family:'volter';
+		height:30%;
+		width: 50%;
+		border-style: inset;
+		text-shadow:1.3px 1.3px #3F3F33;
 }
 #title
 {
@@ -176,10 +259,9 @@ border-style: inset;
 {
 
 border-color: #B6AEB8 #B6AEB8 #B6AEB8 #B6AEB8;
-height: 10%;
-width:  10%;
-padding: 1%
-animation-delay: 20%;
+height: 50px;
+width:  70px;
+padding: 2%
 }
 
 #img:hover
@@ -211,8 +293,8 @@ border-radius: 2%;
 {
 font-size: 16px;
 }
-*/
-	/* Splash Text */
+
+	/* Splash Text 
 #splash1 {
      color: #FFD000;
      font-size: 5%;
@@ -252,13 +334,14 @@ font-size: 16px;
    -webkit-transform: rotate(-25deg);
    transform: rotate(-25deg);
 }
-		
+	*/	
+	
 	  #NewTextLayout
 
 	{ 
 	width: 80%;
 	background-color: #8d7e79;
-    height:100%;
+    height: 100%;
 	text-shadow: 1.3px 1.3px #44423e;
     border-style: outset;
 	color: #fff;
@@ -267,7 +350,7 @@ font-size: 16px;
     outline:none; 
 	display:block;  
 border-width: 3 3%; 
-font-size: 90%;
+font-size: 140%;
 border-radius: 2%;
 left: 0;   /* top border only */ font-weight:normal
   	}
@@ -314,13 +397,14 @@ left: 0;   /* top border only */ font-weight:normal
   src: url('fonts/../mcpe.ttf');
 }
 body {
-        font-size: 80%;
+        font-size: 100%;
 		background-image: url(../img/mbg.png);
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
 		color: white;
-		word-spacing: 1px;
-    
+	 width: 100%;
+	 height: auto;
+  
 /*Anti-aliasing*/
 width: auto;
 height: auto;
@@ -336,7 +420,8 @@ font-smoothing: antialiased;
 } #content {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} 
+
 div.title {
   text-align: center;
 }
@@ -357,11 +442,11 @@ div.title {
       padding: 2.0%;
 		background-color: #958681;
 		color:#FFFFFF;
-		width: 23%;
+		width: 21%;
 		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-	font-size: 82%;
+	font-size: 57%;
 		border-style: outset;
       border-radius: 2%;
       border-width:  1px;
@@ -370,7 +455,7 @@ div.title {
 }
 .boton:hover{
        
-        font-size: 82%;
+  
 		background-color: #73656b;
 	    color: #cec642;
 		text-shadow:1.4px 1.4px #3F3F33;
@@ -399,18 +484,20 @@ div.title {
      font-size: 80%;
 }
 #Button {
-        padding: 2.0%;
+            padding: 1.5%;
 		background-color: #958681;
 		color:#FFFFFF;
-		width: 40%;
-		height: 15%;
+		width: 20%;
+		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-		font-size: 80%;
+	font-size: 50%;
 		border-style: outset;
-		border-width: 1px;
-		border-color:  #bdb2ad #292829  #292829 #bdb2ad;
-		}
+      border-radius: 2%;
+      border-width:  1px;
+	  text-align: center;
+  border-color:  #bdb2ad #292829  #292829 #bdb2ad;
+/*	 letter-spacing: 1px; */	}
 #Button:hover{
 		background-color: #73656b;
 	    color: #cec642;
