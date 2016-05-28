@@ -1,3 +1,46 @@
+
+#inputMini
+{
+ padding: 1.7%; 
+color:#FFEA66;
+font-size: 70%;
+border-color: #9FA4B3; #cdc4cc #757883; #757883;
+		background-color: #474647;
+		font-family:'volter';
+		height:2%;
+		width: 19%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+		border-radius: 5px;
+		padding-bottom: 9px;
+		border-width: 2px;
+}
+
+#inputMini:hover
+{
+ padding: 1.7%; 
+color:#FFEA66;
+border-color: #9FA4B3; #cdc4cc #757883; #757883;
+		background-color: #474647;
+		font-family:'volter';
+		border-style: inset;
+		text-shadow:1.3px 1.3px #3F3F33;
+}
+#MiniLayout
+{
+ padding: 1.7%; 
+color:#FFEA66;
+font-size: 80%;
+ 	border-color: #bdb2ad #958E95 #958E95 #bdb2ad;
+		background-color: #73656b;
+		font-family:'volter';
+		height:13%;
+		width: 30%;
+		border-style: outset;
+		text-shadow:1.3px 1.3px #3F3F33;
+		border-radius: 5px;
+}
+
 h8
 {
 align=center;
@@ -7,6 +50,7 @@ h3
 {
 align=center;
 text-align:center;
+border-radius: 2%:
 }
 
 .imgbutton
@@ -30,6 +74,7 @@ text-align:center;
 		text-align: left;
 		align: left
      font-size: 80%;
+	 border-radius: 2%;
 }
 
 .SubdownloadLayout
@@ -46,6 +91,8 @@ text-align:center;
 		text-align: left;
 		align: left
      font-size: 80%;
+	 border-radius: 2%;
+	
 	 }
 .entrada1 {
         padding: 2.0%;
@@ -57,8 +104,9 @@ text-align:center;
 		width: 57%;
 		border-style: outset;
 		text-shadow:1.3px 1.3px #3F3F33;
-		text-align: ce4nter;
+		text-align: center;
      font-size: 80%;
+	 border-radius: 2%;
 }
 #buttonalign
 {
@@ -116,64 +164,35 @@ text-align:center;
 }
 .textStyle
 {
- padding: 2.0%; 
-color:#FFEA66;
-font-size: 70%;
-border-color: #9FA4B3; #cdc4cc #757883; #757883;
+        padding: 2.0%; 
+        color:#FFEA66;
+        font-size: 70%;
+        border-color: #9FA4B3; #cdc4cc #757883; #757883;
 		background-color: #474647;
 		font-family:'volter';
 		height:30%;
-		width: 50%;
-		border-style: outset;
+		width: 91%;
+		border-style: inset;
+		border-radius: 2px;
 		text-shadow:1.3px 1.3px #3F3F33;
-}
-.textStyle
-{
- padding: 2.0%; 
-color:#FFEA66;
-font-size: 70%;
-border-color: #9FA4B3; #cdc4cc #757883; #757883;
-		background-color: #474647;
-		font-family:'volter';
-		height:30%;
-		width: 50%;
-		border-style: outset;
-		text-shadow:1.3px 1.3px #3F3F33;
+		border-radius: 5px;
 }
 
-.textStyle:hover
-{
- padding: 2.0%; 
-color:#FFEA66;
-font-size: 82%;
-border-color: #9FA4B3; #cdc4cc #757883; #757883;
-		background-color: #474647;
-		font-family:'volter';
-		height:30%;
-		width: 50%;
-		border-style: inset;
-		text-shadow:1.3px 1.3px #3F3F33;
-}
-#title
-{
-  width: 60%;
-  height: 20%;
-}
+
 
 
 
 #NewChangelogLayout
-
 	{ 
 	width: 79%;
 	text-align: center;
 	background-color: #8d7e79;
-    height: 100%;
-	text-shadow: 1.3px 1.3px #44423e;
+    height: 99%;
+	text-shadow: 1.5px 1.5px #44423e;
 	color: #fff;
 	border-color: #bdb2ad #958E95 #958E95 #bdb2ad;
     border-style: outset;
-	
+	border-radius: 5px;
   	}
 
 form
@@ -189,6 +208,7 @@ form
 	border-color: #bdb2ad #958E95 #958E95 #bdb2ad;
 	/* First is top,second is right,third is bottom,four is left,*/
 	border-style: outset;
+	border-radius: 2%;
 		}
 		
 #NewLayout
@@ -202,7 +222,7 @@ form
 	border-color: #bdb2ad #cdc4cc #958E95 #bdb2ad;
 	/* First is top,second is right,third is bottom,four is left,*/
 	border-style: outset;
-  	border-radius:30px;
+  	border-radius: 2%;
 		}  
 	/*	input:hover{
 		color: yellow;
@@ -228,7 +248,7 @@ form
 	border-color: #bdb2ad #cdc4cc #958E95 #bdb2ad;
 	/* First is top,second is right,third is bottom,four is left,*/
 	border-style: outset;
-	 
+	border-radius: 2%; 
   	}
 	
 	#DownloadSubMenu
@@ -241,7 +261,7 @@ form
 	align: center;
 	text-shadow: 1.3px 1.3px #44423e;
 	border-color: #bdb2ad #cdc4cc #958E95 #bdb2ad;
-
+    border-radius: 2%;
     border-style: inset;
 	 
   	}
@@ -446,7 +466,7 @@ div.title {
 		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-	font-size: 57%;
+	font-size: 64%;
 		border-style: outset;
       border-radius: 2%;
       border-width:  1px;
@@ -491,7 +511,7 @@ div.title {
 		height: 10%;
 		font-family:'volter';
 		text-shadow: 1.3px 1.3px #3F3F33;
-	font-size: 50%;
+	font-size: 70%;
 		border-style: outset;
       border-radius: 2%;
       border-width:  1px;
@@ -509,4 +529,10 @@ div.title {
 	    color: #cec642;
 		border-style: inset;
 		#292829 #bdb2ad #bdb2ad #292829;
+}
+
+#title
+{
+   width: 60%;
+ height: 20%;
 }
